@@ -16,11 +16,11 @@ public class cuentaAhorro extends cuentaBancaria {
     public void calcularIntereses() {
         double interesAplicado;
 
-        if (saldo < saldoMinimo)
+        if (saldo < saldoMinimo){
             interesAplicado = interesAnualBasico / 2;
-        else
+    } else {
             interesAplicado = interesAnualBasico * 2;
-
+    
         saldo += saldo * interesAplicado;
     }
     public void mostrar() {
