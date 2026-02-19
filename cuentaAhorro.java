@@ -23,5 +23,8 @@ public class cuentaAhorro extends cuentaBancaria {
 
         saldo += saldo * interesAplicado;
     }
+    public void mostrar() {
+        System.out.println("Cuenta Ahorro    IBAN: " + this.getIban() + " Saldo: " + this.getSaldo());
+    }
 }
 
