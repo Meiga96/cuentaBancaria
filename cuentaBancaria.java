@@ -2,9 +2,9 @@ package ejersPOO2;
 
 public abstract class cuentaBancaria {
 
-    protected String iban;
-    protected double saldo;
-    protected static double interesAnualBasico = 0.03;
+    private final String iban;
+    private double saldo;
+    public static final double interesAnualBasico = 0.03;
 
     public cuentaBancaria(String iban, double saldo) {
         this.iban = iban;
