@@ -8,8 +8,8 @@ public class Main {
    public static void main(String arg[]) {
  
         // Creamos una cuenta corriente y otra de ahorro
-        CuentaCorriente cc = new CuentaCorriente("ES6256465847", 1000);
-        CuentaAhorro ca = new CuentaAhorro("ES9956415656", 3000);
+        cuentaCorriente cc = new cuentaCorriente("ES6256465847", 1000);
+        cuentaAhorro ca = new cuentaAhorro("ES9956415656", 3000);
  
         // Mostramos datos de las cuentas
         cc.mostrar();
